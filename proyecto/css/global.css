@@ -121,7 +121,7 @@ header nav ul li {
 		font-size:25px;
 		-webkit-box-sizing:border-box;
 		-moz-box-sizing:border-box;
-		-o-box-sizing:border-box;
+		 box-sizing:border-box;
            
 }
     
@@ -142,13 +142,8 @@ header nav ul li {
         background-size: 100vm 100vh;
         background-attachment: fixed;
         margin: 0;
+ 
 }  
-
-
-
-
-
-
 
 form{
         width:350px;
@@ -157,6 +152,9 @@ form{
         padding: 10px 20px;
         box-sizing: border-box;
         border-radius: 7px;
+        
+    
+    
      
 }
     
@@ -205,17 +203,23 @@ texarea{
 footer{
         background: #202020;
         width: 100%;
-        margin: 0px;
-        padding: 0px;
+        margin: auto;
+        padding: 0;
         font-family: sans-serif;
         box-sizing: border-box;
         color:white;
+        
+        
+       
+        
 }
     
 .container-footer-all{
         width: 100%;
-        max-width: 1300px;
+        max-width: 500px;
         margin: auto;
+        margin-bottom: 100px;
+        
 }
     
 .container-body{
@@ -223,7 +227,7 @@ footer{
 }
     
 .colum1{
-        max-width: 300px;
+        max-width: 500px;
         
         
 }
@@ -241,13 +245,14 @@ footer{
 }
     
 .colum2{
-        max-width: 300px;
+        max-width: 650px;
         
 }
     
 .colum2 h1 {
         font-size: 20px;
        text-align: center;
+       
 }
 
 
@@ -255,6 +260,7 @@ footer{
     list-style: none;
     margin-left: 20px;
     width: 300px;
+    
     
 }
 
@@ -275,5 +281,3 @@ ul li >label{
      text-align: right;
     
 } 
-
-
