@@ -92,6 +92,7 @@ header nav ul li a:hover {
 
 section {
 	padding:20px;
+    margin-top: -70px;
 }
 
 
@@ -134,10 +135,7 @@ header nav ul li {
         font-weight: bold;
       
 }
-    .section videos{
-       margin-top: 100px;
-        
-}
+      
 
 .form-body{
         background-color:#fff;
@@ -260,36 +258,7 @@ footer{
     
 }
 
-
-.colum3{
-    margin-right: 200px;
-    display: flex;
-    margin: auto;
-    margin-top: 15px;
-    
-    
-}
-
-.colum4{
-    margin: auto;
    
-}
- 
-.colum4 h1{
-    font-size: 20px;
-    margin-top: -210px;
-    margin-left: 100px;
-    text-align: center;
-}
- 
-.colum4 ul li{
-    list-style: none;
-    margin-left: 50px;
-    
-}
-
-
-    
 .row2{
     margin-top: 20px;
     margin-left: 20px;
@@ -308,10 +277,3 @@ ul li >label{
 } 
 
 
-    
-    
-   
-        
-   
-    
-    
